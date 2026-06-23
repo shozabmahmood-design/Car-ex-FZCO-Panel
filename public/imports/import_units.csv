@@ -1,0 +1,6 @@
+Kilogram,Kg,,,
+Piece,Pc(s),,,
+Meter,m,,,
+Centimeter,Cm,Meter,/,100
+Grams,g,Kilogram,/,1000
+Dozen,Dz,Piece,*,12
