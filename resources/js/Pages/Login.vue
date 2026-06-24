@@ -8,7 +8,7 @@
 							<a class="kt-login__logo" href="#">
 								<img :src="'assets/logo.png'" style="height: 75px;">
 							</a>
-							<h3 class="kt-login__title">CAR EX LLC - ADMIN PANEL test</h3>
+							<h3 class="kt-login__title">CAR EX LLC - ADMIN PANEL</h3>
 							<span class="kt-login__desc">
 								Login to continue your working... 
 							</span>
