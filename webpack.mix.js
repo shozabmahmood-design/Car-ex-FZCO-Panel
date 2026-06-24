@@ -1,4 +1,12 @@
 const mix = require('laravel-mix');
+const dotenv = require('dotenv');
+const dotenvExpand = require('dotenv-expand');
+
+// Load environment variables from .env.production if building for production
+if (mix.inProduction()) {
+    const env = dotenv.config({ path: '.env.production', override: true });
+    dotenvExpand(env);
+}
 
 /*
  |--------------------------------------------------------------------------
